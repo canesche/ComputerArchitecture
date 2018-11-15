@@ -1,0 +1,24 @@
+#! /usr/bin/vvp
+:ivl_version "10.1 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x5653be2c93c0 .scope module, "AND" "AND" 2 5;
+ .timescale 0 0;
+    .port_info 0 /INPUT 2 "in1"
+    .port_info 1 /INPUT 2 "in2"
+    .port_info 2 /INPUT 2 "out"
+o0x7f15bc505018 .functor BUFZ 2, C4<zz>; HiZ drive
+o0x7f15bc505048 .functor BUFZ 2, C4<zz>; HiZ drive
+L_0x5653be2e9870 .functor AND 2, o0x7f15bc505018, o0x7f15bc505048, C4<11>, C4<11>;
+v0x5653be2c9590_0 .net "in1", 1 0, o0x7f15bc505018;  0 drivers
+v0x5653be2e9650_0 .net "in2", 1 0, o0x7f15bc505048;  0 drivers
+v0x5653be2e9730_0 .net "out", 1 0, L_0x5653be2e9870;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "and.v";
