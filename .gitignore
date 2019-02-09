@@ -4,3 +4,7 @@ cpp/*.exe
 # VS code
 .vscode
 cpp/.vscode
+
+#Executables in general
+*.out
+*.exe
