@@ -1,2 +1,2 @@
-# ArchitectureComputer
-Codes and material made by me for to learn Architecture Computer at UFV
+# Computer Architecture
+Codes and material made by me for to learn Computer Architecture at UFV
