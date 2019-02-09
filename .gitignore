@@ -8,3 +8,7 @@ cpp/.vscode
 #Executables in general
 *.out
 *.exe
+
+#Latex
+*.aux
+*.log
